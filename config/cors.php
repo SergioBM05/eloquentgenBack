@@ -15,9 +15,9 @@ return [
     |
     */
 
-   'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie'],
     'allowed_methods' => ['*'], // Permite todos (POST, GET, etc.)
-    'allowed_origins' => ['http://localhost:3000'], // Tu URL de Next.js
+    'allowed_origins' => ['https://laraquick.vercel.app', 'http://localhost:3000'],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'], // Permite todas las cabeceras (Content-Type, etc.)
     'exposed_headers' => [],
