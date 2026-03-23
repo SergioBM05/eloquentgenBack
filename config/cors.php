@@ -16,6 +16,7 @@ return [
     */
 
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'allowed_origins' => ['*'],
     'allowed_methods' => ['*'], // Permite todos (POST, GET, etc.)
     'allowed_origins' => ['https://laraquick.vercel.app', 'http://localhost:3000'],
     'allowed_origins_patterns' => [],
