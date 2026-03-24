@@ -13,4 +13,6 @@ class SharedSchema extends Model
     // protected $casts = [
     //     'json_content' => 'array',
     // ];
+
+    
 }
